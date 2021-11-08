@@ -1,18 +1,18 @@
-public class StackNode<T>{
+public class StackNode<E>{
 
-    private final T data;
-    private final StackNode<T> child;
+    private final E data;
+    private final StackNode<E> child;
 
-    public StackNode(T data, StackNode<T> child) {
+    public StackNode(E data, StackNode<E> child) {
         this.data = data;
         this.child = child;
     }
 
-    public T getData() {
+    public E getData() {
         return data;
     }
 
-    public StackNode<T> getChild() {
+    public StackNode<E> getChild() {
         return child;
     }
 }
