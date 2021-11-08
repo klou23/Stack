@@ -14,11 +14,11 @@ public class Stack<E>{
     }
 
     public boolean isEmpty(){
-        return false;
+        return size == 0;
     }
 
     public int size(){
-        return 0;
+        return size;
     }
 
     public E peek(){
