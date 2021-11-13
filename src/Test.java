@@ -1,3 +1,10 @@
+/**
+ * Test.java
+ * Kevin Lou
+ * 2021/11/13
+ * Class used for testing the Stack and StackNode classes
+ */
+
 public class Test {
 
     /**

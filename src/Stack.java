@@ -1,3 +1,10 @@
+/**
+ * Stack.java
+ * Kevin Lou
+ * 2021/11/13
+ * A stack implementation with similar methods to java.util.Stack
+ */
+
 public class Stack<E>{
 
     private StackNode<E> topNode;
