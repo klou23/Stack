@@ -3,6 +3,11 @@ public class StackNode<E>{
     private final E data;
     private final StackNode<E> child;
 
+    public StackNode(){
+        data = null;
+        child = null;
+    }
+
     public StackNode(E data){
         this.data = data;
         child = null;
